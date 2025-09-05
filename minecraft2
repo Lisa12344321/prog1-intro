@@ -1,0 +1,19 @@
+import random
+
+from random import randint
+player_life = 100
+
+zombie_life = 100
+
+print("1")
+print("2")
+print("3")
+print("fight")
+
+
+while zombie_life > 0:
+    player_life -= randint(1,2)
+    zombie_life -= randint(1,6)
+
+print(f"Player har {player_life} liv kvar")
+
